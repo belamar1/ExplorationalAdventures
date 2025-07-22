@@ -48,7 +48,7 @@ Project Management · Marketing · Communication · Community Engagement · Work
 ## 🚀 Projects I’m Proud Of
 
 - **[MiaAgent](#)**  
-  Secure, lightweight AI agent for IoT, education, and sustainability
+  Secure, lightweight AI agent
 
 - **EcoTech Explorers Labs**  
   Electronics kits and guided projects for kids
