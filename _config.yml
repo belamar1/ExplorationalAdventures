@@ -1,39 +1,50 @@
-#just to triger actions
-# Site Identity
-title: Explorational Adventures
-email: contact@ecotechexplorers.ninja
-description: >-
-  Hands-on STEM and sustainability learning powered by EcoTech Explorers. Explore electronics, AI, and green tech with fun projects and accessible guides.
+name: Build and Deploy Jekyll site to GitHub Pages
 
-# GitHub Pages deployment
-baseurl: "/ExplorationalAdventures"  # Repository name, required for project pages
-url: "https://belamar1.github.io"    # GitHub Pages base URL
+on:
+  push:
+    branches: [main]
 
-# Author & Social
-twitter_username: ecotech_ninja
-github_username: belamar1
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-# SEO
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
-# Markdown processor
-markdown: kramdown
-kramdown:
-  input: GFM
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-# Build exclusions (keep default for GitHub Pages)
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - node_modules/
-  - vendor/
-  - README.md
-  - Gemfile
-  - Gemfile.lock
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
 
-# Optional: Enable Google Analytics (uncomment and add your tracking ID)
-# google_analytics: UA-XXXXXXXXX-X
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
