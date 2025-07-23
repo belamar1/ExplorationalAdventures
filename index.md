@@ -3,7 +3,7 @@ layout: default
 title: 👋 Hi, I'm Bakhta Elamar
 ---
 
-# 👋 Hi, I'm Bakhta Elamar (`belamar1`)
+# 👋 Hi, I'm Bakhta Elamar
 
 **Founder of Secure Things Innova**  
 **Creator of EcoTech Explorers**  
