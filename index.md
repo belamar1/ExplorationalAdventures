@@ -75,7 +75,7 @@ Inclusive STEM Education · EdTech Prototyping · Secure Innovation Consulting
 <div style="margin-top: 1em;">
 <a href="mailto:contact@securethingsinnova.tech" style="padding: 10px 16px; background: #007acc; color: white; border-radius: 6px; text-decoration: none;">📧 Email Me Directly</a>
 &nbsp;
-<a href="https://securethingsinnova.tech" style="padding: 10px 16px; background: #00a86b; color: white; border-radius: 6px; text-decoration: none;">🌍 Visit My Website</a>
+<a href="https://securethingsinnova.tech" style="padding: 10px 16px; background: #00a86b; color: white; border-radius: 6px; text-decoration: none;">🌍 Check what I do </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/bakhtaelamar" style="padding: 10px 16px; background: #0a66c2; color: white; border-radius: 6px; text-decoration: none;">💼 Connect on LinkedIn</a>
 </div>
