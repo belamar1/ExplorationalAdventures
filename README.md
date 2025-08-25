@@ -60,7 +60,7 @@ Project Management · Marketing · Communication · Community Engagement · Work
 
 ## 🌐 Let’s Connect
 
-- 🌍 **Website:** [securethingsinnova.tech](https://securethingsinnova.tech)
+- 🌍 **Website:** [securethingsinnova.tech](https://securethingsinnova.tech) [ecotechexplorers.org](https://ecotechexplorers.org)
 - 💼 **LinkedIn:** www.linkedin.com/in/bakhtaelamar
 - 📧 **Reach out for:** Workshops, partnerships, mentorship
 
