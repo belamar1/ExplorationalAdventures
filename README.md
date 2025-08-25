@@ -77,3 +77,4 @@ I’m a STEM founder, educator, and mother — often building circuits alongside
 
 > “Empower through education. Secure through innovation.”
 
+
