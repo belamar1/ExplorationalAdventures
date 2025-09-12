@@ -13,7 +13,7 @@ I’m Bakhta Elamar — a founder, educator, and lifelong learner committed to m
 As the founder of Secure Things Innova Ltd, I lead **EcoTech Explorers**, a STEM initiative focused on empowering children and families with hands-on learning in electronics, AI, and sustainable innovation.
 
 My background blends:
-- **Engineering training** (Open University CS Modules + 4 bootcamps)
+- **Engineering training** (Open University BSc Computer Sciences in progress + 4 bootcamps)
 - **Business & Marketing** (Maîtrise de Gestion d’Entreprise & Business Marketing graduate)
 - **Banking industry experience**
 - **Many years in education**, from preschool to university-level tutoring and coaching 
