@@ -65,7 +65,6 @@ Project Management · Marketing · Communication · Community Engagement · Work
 - 📧 **Reach out for:** Workshops, partnerships, mentorship
 
 ---
-<img width="558" height="390" alt="summerworkshops" src="https://github.com/user-attachments/assets/9fd86f04-7142-4088-ab2f-c478d33dcde0" />
 
 ## ✨ Fun Fact
 
